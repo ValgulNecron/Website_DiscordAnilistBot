@@ -1,0 +1,53 @@
+/* Light Mode */
+.light-theme {
+    --primary-color: #FFC0CB;
+    --secondary-color: #DAB6FF;
+    --background-color: #FFFFFF;
+    --accent-color: #FF69B4;
+    --text-color: #333333;
+}
+
+/* Dark Mode */
+.dark-theme {
+    --primary-color: #FF69B4;
+    --secondary-color: #673AB7;
+    --background-color: #000000;
+    --accent-color: #FFC0CB;
+    --text-color: #D3D3D3;
+}
+
+/* General CSS */
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 4em;
+}
+
+p {
+    color: var(--secondary-color);
+    font-size: 2em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1em;
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
