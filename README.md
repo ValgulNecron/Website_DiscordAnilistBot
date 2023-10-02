@@ -3,8 +3,8 @@
 ### Website
 - [ ] landing page with a description of what is the bot.
 - [ ] button to add the bot.
-- [ ] wiki section with explaination on how to self host the bot with support for multiple langage.
-- [ ] legal section.
+- [ ] wiki section with explaination on how to self host the bot with support for multiple langage. (prob on github or if you want to do it on the site itself)
+- [ ] legal section. 
 - [ ] dashboard to manage the bot. (for activity event, and probs other feature in the future.)
 
 ### BOT
