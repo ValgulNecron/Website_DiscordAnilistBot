@@ -62,8 +62,3 @@ p {
     display: flex;
     justify-content: space-between;
 }
-
-a {
-    color: var(--primary-color);
-    text-decoration: underline;
-}
