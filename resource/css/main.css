@@ -1,9 +1,9 @@
 /* Light Mode */
 .light-theme {
-    --primary-color: #ff00bd;
+    --primary-color: #FF47C8;
     --secondary-color: #ff5ed4;
-    --background-color: #eff1f5;
-    --accent-color: #dd7878;
+    --background-color: #FFCCD0	;
+    --accent-color: #D43EFF;
     --button-coor: #dce0e8;
     --text-color: #333333;
 }
@@ -12,8 +12,8 @@
 .dark-theme {
     --primary-color: #ff00bd;
     --secondary-color: #ff5ed4;
-    --background-color: #1e1e2e;
-    --accent-color: #FFC0CB;
+    --background-color: #1D001D;
+    --accent-color: #5A004D;
     --button-coor: #11111b;
     --text-color: #D3D3D3;
 }
@@ -48,11 +48,11 @@ ul {
 }
 
 p {
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 button {
-    color: var(--primary-color);
+    color: var(--text-color);
     background-color: var(--button-coor);
 }
 
