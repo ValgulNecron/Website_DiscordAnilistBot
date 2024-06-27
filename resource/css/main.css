@@ -1,0 +1,66 @@
+/* Light Mode */
+.light-theme {
+    --primary-color: #ff00bd;
+    --secondary-color: #ff5ed4;
+    --background-color: #eff1f5;
+    --accent-color: #dd7878;
+    --button-coor: #dce0e8;
+    --text-color: #333333;
+}
+
+/* Dark Mode */
+.dark-theme {
+    --primary-color: #ff00bd;
+    --secondary-color: #ff5ed4;
+    --background-color: #1e1e2e;
+    --accent-color: #FFC0CB;
+    --button-coor: #11111b;
+    --text-color: #D3D3D3;
+}
+
+/* General CSS */
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+li {
+    color: var(--secondary-color);
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+ul {
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--secondary-color);
+}
+
+button {
+    color: var(--primary-color);
+    background-color: var(--button-coor);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
